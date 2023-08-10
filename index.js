@@ -2,9 +2,6 @@
 //fill in the circle whenever the slide is changed
 //make a function to cycle through the array automatically
 
-
-
-
 const img0 = new Image();
 img0.src="./images/FD97CB56-D825-4E4E-8DB4-6157661138E5_1_105_c.jpeg";
 const img1= new Image();
@@ -60,13 +57,8 @@ const nextPicture = function(){
             btn.classList.add('active');
         }else{
             btn.classList.remove('active');
-        }
-       
-       
+        } 
     })
-
-    
-
 }
 
 const prevPicture = function(){
